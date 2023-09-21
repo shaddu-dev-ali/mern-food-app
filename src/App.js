@@ -14,7 +14,6 @@ import { CartProvider } from './components/contextReducer';
 export default function () {
   return (
     <CartProvider>
-      {/* <h1>Hello</h1> */}
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
